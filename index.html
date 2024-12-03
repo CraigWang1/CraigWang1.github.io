@@ -1,1 +1,59 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <!-- Style to create button -->
+	    <style> 
+	        .GFG { 
+	           width:100px;
+	           height:50px;
+	           background:#4388BC;
+	           border:none;
+	           color:white;
+	        } 
+	    </style> 
+	</head>
+
+	<body>
+		<h1>Craig Wang</h1>
+		<h2>Projects</h2>
+		<h3>Hydrogen Retention Simulator For Plasma Facing Materials in Nuclear Fusion Environments</h3>
+		<img src="merged_saturated.gif" alt="Hydrogen Loading" style="width:480px;height:360px;"/>
+		<img src="sim_vs_exp.png" alt="Simulation Vs. Experiment"/ style="width:480px;height:360px;">
+		<form action="https://github.com/CraigWang1/Spatially-Resolved-Stochastic-Cluster-Dynamics-SRSCD-simulator-with-Qianran-Yu-">
+			<button type="submit" class="GFG">Code</button>
+		</form>
+		<p>Developed hydrogen transport simulation code for the Marian Lab at UCLA, integrating new features such as hydrogen desorbing out of the surface and hydrogen bubbles forming without preexisting vacancies. I also tested experimental features such as parallelizing the code with MPI. Currently investigating new bubble growth mechanism that could explain why some materials retain less hydrogen than others, to develop more resistant materials for intense nuclear fusion environments.</p>
+		<h3>Autonomous Underwater Vehicle (AUV) Software Projects</h3>
+		<p>Code unavailable due to organization privacy.</p>
+		<h4>Simulator</h4>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/P7MCPRRmOtc?si=htEfADs4zzsq9DL3&amp;start=65" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p>Created simulator using UUV-Simulator plugin to allow instant testing of navigation, motor control, and machine-learning object detection algorithms. Wrote interface modules so that in simulation mode, mission stack interacted with software environment, whereas in real-life mode, the same mission code switched seamlessly to communicating with real microcontrollers.</p>
+		<h4>Machine Learning Object Detection Model</h4>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fX5dyzhCacA?si=isrfxDwThAk_6lHP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p>The visual filter is not my work, but the object detection is.</p>
+		<p>Integrated EfficientDet-D0 machine learning model for object detection into our code stack by collecting image dataset, labeling data, and training model, after which I wrote code to access the model, feed it images, and read inference/detection data. Achieved similar accuracy as previous vision models with 2-3x faster inference speed on cheaper hardware.</p>
+		<h4>Cascade PID Controller to Maintain Velocity of Submarine</h4>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/TtaBWio--K8?si=_NJyc2tgc1_42TSU&amp;start=311" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p>Implemented cascade PID controller that controlled both velocity and position of submarine on Arduino microcontroller. Processed data from Doppler-Velocity-Log, Attitude and Heading Reference System (AHRS), and pressure sensor to calculate optimal motor thrusts. This allowed for sub-inch precision position control on this bulky submarine, allowing 2x successful autonomous torpedo shots during competition.</p>
+		<h4>2022 Finals Second Place Run</h4>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/rhu36NEXQAI?si=pziOW0ygGPcClisL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/L7LDUXJaubs?si=LEdDLUzjEo27QXMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p>I was in charge of the software team. Aforementioned simulator allowed us to fine-tune navigation code before competition, and machine learning object detection allowed us to accurately detect competition objects, leading to 2nd place finish out of 35+ international collegiate competitors. 1st place winner was National University of Singapore.</p>
+		<h4>Other Cool Videos During Testing/Simulation</h4>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mDQnAuBSPEQ?si=7lzu9lLsB2fKeagS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/iswfZHgsrJI?si=eS-abOb2yoV95Tju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/g2aUd6A6AgY?si=PyWZLRzoPqv7Ckzp&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/n4F7XXkg9Kw?si=Gcf_8hYVITboUzHD&amp;start=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p>I ran the code at in-person tests, and I ran the simulations shown.</p>
+		<h3>Payload Enclosure for UCLA Unmanned Aerial Systems Club</h3>
+		<img src="payload4.png" alt="Simulation Vs. Experiment"/ style="width:330;height:440px;">
+		<img src="payload1.png" alt="Payload1"/ style="width:330;height:440px;">
+		<img src="payload3.png" alt="Simulation Vs. Experiment"/ style="width:330;height:440px;">
+		<img src="payload2.png" alt="Simulation Vs. Experiment"/ style="width:330;height:440px;">
+		<p>Designed (CAD with SolidWorks), 3D-printed, tested, and iterated payload delivery module, designed to hold water bottles that are dropped from a drone at 75+ ft. Thinned out the walls in a later iteration to reduce weight.
+
+	</body>
+
+
+</html>
